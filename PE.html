@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privilege Escalation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Reporting Template Engine</h1>
+
+<div class="sidenav">
+    <a href="RTE_Home.html">Home</a>
+    <a href="XSS.html">XSS</a>
+    <a href="PE.html">Privilege Escalation</a>
+    <a href="idor.html">IDOR</a>
+    <a href="sensinfo.html">Sens. Info Leak</a>
+</div>
+
+<h2 id="heading1">Privilege Escalation</h2>
+
+<div class="main">
+    <p id="line1">### Description:</p>
+    <p>Privilege escalation occurs when a user gets access to more resources or functionality than they are normally allowed, and such elevation or changes should have been prevented by the application. This is usually caused by a flaw in the application. The result is that the application performs actions with more privileges than those intended by the developer or system administrator. </p>
+
+    <p>{ Your approach on finding description here } </p>
+
+    <p>### Steps to Reproduce: </p>
+    <p> 1. {Your steps to reproduce here} </p>
+
+    <p>###Vulnerable End Point</p>
+
+    <p>```</p>
+    <p>{Vulnerable endpoint here}</p>
+    <p>```</p>
+
+    <p>### Vulnerable Request: </p>
+
+    <p>```</p>
+    <p>{Your vulnerable request here}</p>
+    <p>```</p>
+
+    <p>### Response: </p>
+
+    <p>```</p>
+    <p>{Your response of the above request here}</p>
+    <p>```</p>
+
+    <p>### Proof of Concept: </p>
+
+    <p>{POC snapshots or POC video here}</p>
+
+    <p>###Impact: </p>
+
+    <p>{Impact of your finding here}</p>
+
+    <p>### Mitigation: </p>
+    <p>Not every user has a right to every web service. This is vital, as you don’t want
+        administrative/high privileged users web services to be misused:
+         https://example.com/admin/exportAllData
+        . The session token or API key should be sent along as a cookie or body parameter to
+        ensure that privileged collections or actions are properly protected from unauthorized
+        use.</p>
+
+    <p>### Reference Links: </p>
+    <ul>
+        <li> - https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/05-Authorization_Testing/03-Testing_for_Privilege_Escalation</li>
+        <li> - https://www.hackerone.com/blog/8-high-impact-bugs-and-how-hackerone-customers-avoided-breach-privilege-escalation </li>
+        <li> - https://www.netsparker.com/blog/web-security/privilege-escalation/ </li>
+        <li> - https://www.hacksplaining.com/prevention/privilege-escalation </li>
+
+
+    </ul>
+
+
+</div>
+
+
+</body>
+</html>

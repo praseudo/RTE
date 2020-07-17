@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(0,0,10,0.1);
+}
+
+.sidenav {
+    width: 200px;
+    height: 1000px;
+    position: fixed;
+    background-color: lightsteelblue;
+    padding: 10px 0;
+    box-shadow: 0 0 6px black;
+    border-style: solid;
+    border-width: thin;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #064579;
+}
+
+.main {
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 10px;
+    display: block;
+    width: 1627px;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 0 0 6px black;
+}
+
+#heading1{
+    border-style: solid;
+    border-width: thin;
+    background-color: lightsteelblue;
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 25px; /* Increased text to enable scrolling */
+    padding: 10px;
+    width: 1627px;
+    display: block;
+    box-shadow: 0 0 6px black;
+}
+
+#line1{
+    line-height: 0;
+}
+
+#line2{
+    line-height: 0;
+}
+
+
+
+h1{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 6px;
+    text-align: center;
+    width: 1858px;
+    box-shadow: 0 0 6px black;
+    border-style: solid;
+    border-width: thin;
+}
+
